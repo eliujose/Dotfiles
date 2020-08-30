@@ -1,0 +1,44 @@
+use_xft yes
+xftfont 123:size=38
+xftalpha 0.1
+update_interval 1
+total_run_times 0
+
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour 000000
+own_window_argb_visual yes
+own_window_argb_value 0
+
+double_buffer yes
+#minimum_size 250 5
+#maximum_width 500
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_color ffe4e1
+default_shade_color cyan
+default_outline_color BA1260
+alignment top_left
+gap_x 2580
+gap_y 550
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 1
+override_utf8_locale yes
+use_spacer yes
+
+
+minimum_size 0 0
+TEXT
+${voffset 250}${color ffe4e1}${font Bariol Clock:pixelsize=280}${time %I:%M}${font}${voffset -294}${offset -600}${color teal}${font Bariol Clock:pixelsize=150}${time %d} ${voffset -64}${offset -4}${color DFDFDF}${font Bariol Clock:pixelsize=58}${time  %B} ${time %Y}${font}${voffset 50}${font Bariol Clock:pixelsize=68}${offset -256}${time %A}${font}
+${voffset 215}${offset 30}${font Ubuntu:pixelsize=22}${color teal}HD ${offset 9}$color${fs_used /} / ${fs_free /}${offset 50}${color teal}RAM ${offset 9}$color$mem / $memmax${offset 50}${color teal}CPU ${offset 9}$color${cpu cpu0}%
+
+
+
+
+
