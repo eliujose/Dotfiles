@@ -1,0 +1,77 @@
+# Window Customization
+window:
+  dimensions:
+    columns: 100
+    lines: 50
+  padding:
+    x: 15
+    y: 15
+  decorations: none
+scrolling:
+  history: 10000
+  multiplier: 3
+background_opacity: 0.95
+window.dynamic_title: true
+
+# Font Customization
+font:
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+  bold:
+    family: FiraCode Nerd Font
+    style: Bold
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+  size: 14
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+  use_thin_strokes: false
+  debug:
+    persistent_logging: false
+draw_bold_text_with_bright_colors: true
+
+# Color Settings (Gruvbox)
+colors:
+  # Default colors
+  primary:
+    background: '#1b2b34'
+    foreground: '#d8dee9'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#1b2b34'
+    cursor: '#ffffff'
+
+  # Normal colors
+  normal:
+    black: '#343d46'
+    red: '#EC5f67'
+    green: '#99C794'
+    yellow: '#FAC863'
+    blue: '#6699cc'
+    magenta: '#c594c5'
+    cyan: '#5fb3b3'
+    white: '#d8dee9'
+
+  # Bright colors
+  bright:
+    black: '#343d46'
+    red: '#EC5f67'
+    green: '#99C794'
+    yellow: '#FAC863'
+    blue: '#6699cc'
+    magenta: '#c594c5'
+    cyan: '#5fb3b3'
+    white: '#d8dee9'
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
