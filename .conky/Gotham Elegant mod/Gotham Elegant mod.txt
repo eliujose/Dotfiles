@@ -19,12 +19,12 @@ draw_shades no
 draw_outline no
 draw_borders no
 draw_graph_borders no
-default_color ffe4e1
+default_color white
 default_shade_color cyan
-default_outline_color BA1260
+default_outline_color ffe4e1
 alignment top_left
-gap_x 2580
-gap_y 550
+gap_x 960
+gap_y 1325
 no_buffers yes
 uppercase no
 cpu_avg_samples 2
@@ -35,8 +35,8 @@ use_spacer yes
 
 minimum_size 0 0
 TEXT
-${voffset 250}${color ffe4e1}${font Bariol Clock:pixelsize=280}${time %I:%M}${font}${voffset -294}${offset -600}${color teal}${font Bariol Clock:pixelsize=150}${time %d} ${voffset -64}${offset -4}${color DFDFDF}${font Bariol Clock:pixelsize=58}${time  %B} ${time %Y}${font}${voffset 50}${font Bariol Clock:pixelsize=68}${offset -256}${time %A}${font}
-${voffset 215}${offset 30}${font Ubuntu:pixelsize=22}${color teal}HD ${offset 9}$color${fs_used /} / ${fs_free /}${offset 50}${color teal}RAM ${offset 9}$color$mem / $memmax${offset 50}${color teal}CPU ${offset 9}$color${cpu cpu0}%
+${voffset 250}${color F11950}${font Bariol Clock:pixelsize=280}${time %I:%M}${font}${voffset -294}${offset -600}${color cyan}${font Bariol Clock:pixelsize=150}${time %d} ${voffset -64}${offset -30}${color white}${font Bariol Clock:pixelsize=58}${time  %B} ${time %Y}${font}${voffset 50}${font Bariol Clock:pixelsize=68}${offset -300}${time %A}${font}
+${voffset 215}${offset 30}${font Ubuntu:pixelsize=22}${color cyan}HD ${offset 9}$color${fs_used /} / ${fs_free /}${offset 50}${color cyan}RAM ${offset 9}$color$mem / $memmax${offset 50}${color cyan}CPU ${offset 9}$color${cpu cpu0}%
 
 
 

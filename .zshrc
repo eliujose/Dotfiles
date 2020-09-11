@@ -118,7 +118,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 # Aliases #
 
-alias vn='nvim'
+alias nv='nvim'
 alias ls='lsd -a'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade -y'
